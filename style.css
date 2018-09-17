@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     text-align: center;
+    vertical-alight: middle;
   }
 
 body {
@@ -9,20 +10,26 @@ body {
     background: #777;
     width: 960px;
     font-size: 18pts;
+    line-height: 32px;
     margin-left: 150px;
     padding-top: 50px;
 }
-
-div {
-  background-color: #777
-}
+  
   
   header {
     padding: 20px;
     margin-bottom: 20px;
     color: #333;
-    background: #ccc;
+    background: #ebebeb;
   }
+
+  nav {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ebebeb;
+  }
+
   
   div {
     padding: 20px;
@@ -31,9 +38,13 @@ div {
     background: #ccc;
   }
 
-  section {
-    width: 33%;
-    justify-content: center;
+  #section {
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+    background: #ebebeb;
+    width: 480%;
+    
   }
   
   #left { 
@@ -76,6 +87,15 @@ div {
   }
   
   aside {
+    #box {
+      width: 440px;
+      height: 400px;
+      margin: 10px 30px 20px 50px;
+      padding: 25px 10px 30px 20px;
+      border-style: solid;
+      border-width: 22px;
+      border-color: #777777
+    }
     float: left;
     width: 30%;
     height: 150px;
@@ -85,9 +105,10 @@ div {
   }
   
   footer {
-    padding: 20px;
+   padding: 20px;
+    margin-bottom: 20px;
     color: #333;
-    background: #ccc;
+    background: #ebebeb;
   }
   
    
