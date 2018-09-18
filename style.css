@@ -1,130 +1,130 @@
 * {
-    box-sizing: border-box;
-    text-align: center;
-    vertical-alight: middle;
-  }
+  box-sizing: border-box;
+  text-align: center;
+  vertical-alight: middle;
+}
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777;
-    background: #777;
-    width: 960px;
-    font-size: 18pts;
-    line-height: 32px;
-    margin-left: 150px;
-    padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777;
+  background: #777;
+  width: 960px;
+  font-size: 18pts;
+  line-height: 32px;
+  margin-left: 150px;
+  padding-top: 50px;
 }
-  
-  
-  header {
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #333;
-    background: #ebebeb;
-  }
 
-  nav {
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #333;
-    background: #ebebeb;
-  }
 
-  
-  div {
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #333;
-    background: #ccc;
-  }
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ebebeb;
+}
 
-  
-  #left { 
-    float: left;
-    padding: 20px;
-    color: #333;
-    background: #ccc;
-  }
-  
-  
-  #right {
-    float: right;
-    padding: 20px;
-    color: #333;
-    background: #ccc;
-  }
-  
-  #division {
-    width: 100%;
-    overflow: auto;
-    clear: both;
-    padding: 20px;
-    color:#333;
-    background: #ccc;
-  }
-  
-  #full {
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    padding: 10px 10px 10px 10px;
-    color: #333;
-    background:#ccc;
-  }
+nav {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ebebeb;
+}
 
-  #article {
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    padding: 10px 10px 10px 10px;
-    color: #ebebeb;
-    background: #777;
-  }
 
-  #partial_left {
-    width: 52%;
-    float: left;
-    height: 100%;
-    overflow: auto;
-    padding: 10px 10px 10px 10px;
-    color: #333;
-  }
-  
-  #partial_right {
-    width: 45%;
-    float: right;
-    height: 215px;
-    overflow: auto;
-    padding: 10px 10px 10px 10px;
-    color: #333;
-  }
-  
+div {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
 
-  #partial_right_aside {    
-    float: left;
-    width: 30%;
-    height: 150px;
-    padding-left: 20px;
-    color: #333;
-    background: #777;
-  }
 
-  #box {
-    width: 440px;
-    height: 400px;
-    margin: 10px 30px 20px 50px;
-    padding: 25px 10px 30px 20px;
-    border-style: solid;
-    border-width: 22px;
-    border-color: #777777;
-  }
-  
-  footer {
-    padding: 20px;
-    height: 85px;
-    margin-bottom: 20px;
-    color: #333;
-    background: #ebebeb;
-  }
-  
-   
+#left { 
+  float: left;
+  padding: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+
+#right {
+  float: right;
+  padding: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+#division {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  padding: 20px;
+  color:#333;
+  background: #ccc;
+}
+
+#full {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 10px 10px 10px 10px;
+  color: #333;
+  background:#ccc;
+}
+
+#article {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 10px 10px 10px 10px;
+  color: #ebebeb;
+  background: #777;
+}
+
+#partial_left {
+  width: 52%;
+  float: left;
+  height: 100%;
+  overflow: auto;
+  padding: 10px 10px 10px 10px;
+  color: #333;
+}
+
+#partial_right {
+  width: 45%;
+  float: right;
+  height: 215px;
+  overflow: auto;
+  padding: 10px 10px 10px 10px;
+  color: #333;
+}
+
+
+#partial_right_aside {    
+  float: left;
+  width: 447px;
+  height: 216px;
+  padding-left: 15px;
+  color: #333;
+  background: #ccc;
+}
+
+#box {
+  width: 440px;
+  height: 400px;
+  margin: 10px 30px 20px 50px;
+  padding: 25px 10px 30px 20px;
+  border-style: solid;
+  border-width: 22px;
+  border-color: #777777;
+}
+
+footer {
+  padding: 20px;
+  height: 85px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ebebeb;
+}
+
+ 
