@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
   text-align: center;
-  vertical-alight: middle;
+  vertical-align: middle;
 }
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -22,6 +23,7 @@ header {
   color: #333;
   background: #ebebeb;
 }
+
 
 nav {
   padding: 20px;
@@ -54,6 +56,7 @@ div {
   background: #ccc;
 }
 
+
 #division {
   width: 100%;
   overflow: auto;
@@ -63,14 +66,16 @@ div {
   background: #ccc;
 }
 
-#full {
+
+.full {
   width: 100%;
-  height: 100%;
+  height: 100px;
   overflow: auto;
   padding: 10px 10px 10px 10px;
   color: #333;
   background:#ccc;
 }
+
 
 #article {
   width: 100%;
@@ -81,6 +86,7 @@ div {
   background: #777;
 }
 
+
 #partial_left {
   width: 52%;
   float: left;
@@ -90,8 +96,9 @@ div {
   color: #333;
 }
 
+
 #partial_right {
-  width: 45%;
+  width: 43%;
   float: right;
   height: 215px;
   overflow: auto;
@@ -105,9 +112,11 @@ div {
   width: 447px;
   height: 216px;
   padding-left: 15px;
+  margin-left: 12px;
   color: #333;
   background: #ccc;
 }
+
 
 #box {
   width: 440px;
@@ -119,9 +128,10 @@ div {
   border-color: #777777;
 }
 
+
 footer {
   padding: 20px;
-  height: 85px;
+  height: 200px;
   margin-bottom: 20px;
   color: #333;
   background: #ebebeb;
